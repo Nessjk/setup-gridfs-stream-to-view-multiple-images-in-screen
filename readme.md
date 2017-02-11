@@ -1,8 +1,12 @@
 
 ### This script will read files from a directory and upload them to mongo.
-
-/*conn is the `mongoose.connection`*/
-/*./images is the directory for the images to save to the DB*/
+```
+conn is the `mongoose.connection`
+```
+```
+./images is the directory for the images to save to the DB
+```
+`uploadImages(conn, "./images");`
 
 ####first you want to run this function to make sure you have the images in the `fs.files`
 uploadImages(conn, "./images"); // uncomment it.
@@ -21,3 +25,5 @@ app.get("/",
 This shows the images in the DB and a link to the image.
 
 Include image then delete this line
+
+![alt text](https://github.com/jack2ky/setup-gridfs-stream-to-view-multiple-images-in-screen/blob/master/indexRoute.png "view of page")

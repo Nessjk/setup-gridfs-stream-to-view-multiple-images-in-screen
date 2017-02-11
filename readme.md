@@ -1,5 +1,7 @@
 
-### This script will read files from a directory and upload them to mongo.
+## This project will read images from a directory and upload them to mongo. Then we will Display the image at routes
+
+-----
 ```
 conn is the `mongoose.connection`
 ```
@@ -12,6 +14,7 @@ conn is the `mongoose.connection`
 uploadImages(conn, "./images"); // uncomment it.
 then comment it out so you don't create unwanted files in the DB
 
+##Then we display the images on the rout
 ```
 app.get("/:img"
 ```
@@ -22,8 +25,6 @@ This is where you can see the individual image. so you can see the image at `htt
 app.get("/",
 ```
 
-This shows the images in the DB and a link to the image.
-
-Include image then delete this line
+The image below show what `/` looks like.
 
 ![alt text](https://github.com/jack2ky/setup-gridfs-stream-to-view-multiple-images-in-screen/blob/master/indexRoute.png "view of page")

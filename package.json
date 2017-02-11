@@ -1,0 +1,17 @@
+{
+  "name": "fs-grid-prac",
+  "version": "1.0.0",
+  "description": "This app will scan through a folder an upload the photos to the DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.8.1"
+  }
+}

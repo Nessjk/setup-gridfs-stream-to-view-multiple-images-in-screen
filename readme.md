@@ -14,13 +14,15 @@ conn is the `mongoose.connection`
 uploadImages(conn, "./images"); // uncomment it.
 then comment it out so you don't create unwanted files in the DB
 
-##Then we display the images on the rout
+##Then we display the images on the route
+
+This is where you can see the individual image. so you can see the image at `http://localhost:3000/girl1.jpg`
 ```
 app.get("/:img"
 ```
 
-This is where you can see the individual image. so you can see the image at `http://localhost:3000/girl1.jpg`
 
+This is where we render all the images.
 ```
 app.get("/",
 ```
